@@ -27,6 +27,8 @@ Indicates a non-exhaustive match failure.
 [<NoComparisonAttribute>]
 exception MatchFailureException of string * int * int
 ```
+## Remarks 
+This exception usually occures when a pattern matching has errors, like when it's incomplete.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
